@@ -93,4 +93,4 @@ PlantUML เป็นเครื่องมือสำหรับวาด 
 - ตอนที่ 2 การใช้ PlantUML บน VSCode https://youtu.be/BNwNFfjtCmk 
 - ตอนที่ 3 การใช้ PlantUML ร่วมกับ GraphViz แบบ offline https://youtu.be/m-_3J5BceKM
 
-## [2.4 การใช้งาน Plantuml](./Lab-02-part-1.md)
+## [2.4 การใช้งาน Plantuml](./Lab-02-part-2.md)
