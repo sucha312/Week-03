@@ -20,6 +20,31 @@ PlantUML ทำงานได้สำเร็จโดยอาศัยค�
 
 ทั้ง PlantUML และ Graph Visualization เป็น Open source software สามารถเข้าถึงได้จากลิงค์ต่อไปนี้ 
 
+
+PlantUML เป็นเครื่องมือสำหรับวาด  UML diagrams โดยการใช้ภาษาอย่างง่าย (human readable)
+
+ในมุมมองของ CASE Tool (Computer-aided Software Engineering) นั้น PlantUML เหมาะที่จะเป็น drawing tool มากกว่า modeling tool.
+
+
+## 2.4 ตัวอย่าง diagram ที่สามารถวาดด้วย plantUML
+
+### 2.4.1 Class diagram
+
+![](./Pictures/Pict-01-class-diagram.png)
+
+
+### 2.4.1 Sequence Diagram
+
+![](./Pictures/Pict-02-Sequence-Diagram.png)
+
+
+
+
+
+
+
+
+
 ## PlantUML ##
 - Web site -- https://plantuml.com/ 
 - Source code -- https://github.com/plantuml/plantuml 
