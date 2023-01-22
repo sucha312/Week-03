@@ -33,16 +33,50 @@ PlantUML เป็นเครื่องมือสำหรับวาด 
 ![](./Pictures/Pict-01-class-diagram.png)
 
 
-### 2.4.1 Sequence Diagram
+### 2.4.2 Sequence Diagram
 
 ![](./Pictures/Pict-02-Sequence-Diagram.png)
 
 
+### 2.4.3  Usecase Diagram
+
+![](./Pictures/Pict-03-Usecase-Diagram.png) 
+### 2.4.4  State Diagram
+
+![](./Pictures/Pict-04-State-Diagram.png) 
+
+### 2.4.5 Component Diagram
+![](./Pictures/Pict-05-Component-Diagram.png) 
+
+### 2.4.6 Deployment Diagram
+![](./Pictures/Pict-06-Deployment-Diagram.png) 
+
+### 2.4.7 Timing Diagram
+![](./Pictures/Pict-07-Timing-Diagram.png) 
+
+### 2.4.8 Network diagram
+![](./Pictures/Pict-08-Network-Diagram.png) 
+
+### 2.4.9 Salt (Wireframe)
+![](./Pictures/Pict-09-Salt-(Wireframe)-Diagram.png) 
+
+### 2.4.10 Archimate Diagram
+![](./Pictures/Pict-10-Archimate-Diagram.png) 
+
+### 2.4.11 Gantt Diagram
+![](./Pictures/Pict-11-Gantt-Diagram.png) 
+
+### 2.4.12 MindMap
+![](./Pictures/Pict-12-MindMap-Diagram.png) 
+
+### 2.4.13 Work Breakdown Structure (WBS)
+![](./Pictures/Pict-13-Work-Breakdown-Structure-(WBS)-Diagram.png) 
+
+### 2.4.14 Mathematic
+![](./Pictures/Pict-14-Mathematic.png) 
 
 
-
-
-
+### ไดอะแกรมแบบอื่น ๆ
 
 
 ## PlantUML ##
