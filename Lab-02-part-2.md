@@ -53,20 +53,48 @@
 
 1. การเขียนคลาสอย่างง่าย
 
+ในการเขียน class diagram บน plantUML เราสามารถเขียนคลาสอย่าง่ายโดยมีแค่ชื่อคลาสหรือสามารถใส่ attributes และ methods ได้ 
+
+
+รูปแบบการเขียน  code สำหรับ plantUML จะต้องเริ่มด้วยคำว่า `@startuml` และจบด้วยคำว่า `@enduml` เสมอ
+
+การเขียน class จะใช้รูปแบบดังนี้
+
+``` plantuml
+@startuml
+class ClassName
+{
+' ภายในวงเล็บปีกกาคือ class body   
+}
+@enduml
+```
+
+ภายใน class body จะประกอบด้วย attributes และ Methods โดย plantUML จะจำแนกความแตกต่างระหว่าง attributes และ methods  จากเครื่องหมายวงเล็บหลังชื่อ ถ้ามีวงเล็บจะถูกจัดให้เป็น methods โดยอัตโนมัติ และไม่สนใจตำแหน่งที่ปรากฏใน code ของ plantUML
+
 ![](./Pictures/Pict-19-Class-Simple.png)
 
 2. การเพิ่ม Attributes และ Methods ให้คลาส
+
+เมื่อโปรแกรมมีความซับซ้อนมากขึ้น คลาสของเราก็อาจจะมีความซับซ้อนมากขึ้น plantUML ก็มีรูปแบบการเขียนไว้รองรับเช่นกัน พิจารณาจากรูปต่อไปนี้
+
 
 ![](./Pictures/Pict-20-Class-more.png)
 
 3. การเพิ่ม Data type ให้ Attributes และ Methods 
 
+ในการระบุ attributes และ methods เราอาจจะต้องระบุชนิดของข้อมูล เพื่อให้ส่วนอื่นของโปรแกรมที่ใช้งานคลาสได้เตรียม code ที่เหมาะสมในการส่งพารามิเตอร์หรือนำผลลัพธ์ไปใช้
+
 ![](./Pictures/Pict-21-Class-add-data-type.png)
 
 ### 2.4.3 การกำหนด  visibility ให้กับส่วนประกอบต่างๆ ของคลาส 
 
+คลาสคือการทำ encapsulation ซึ่งต้องมีความสามารถในการตวบคุมการเข้าถึง attributes หรือ methods ในคลาส เราสามารถใช้เครื่องหมายต่างๆ เพื่อควบคุมการเข้าถึง attributes และ methods ซึ่งจะให้ผลการ render ที่แตกต่างกัน พิจารณาจากรูปด้านล่าง
+
+![](./Pictures/Pict-22-Class-Defining-visibility.png)
 
 
+ตัวอย่างการเขียน code ที่มีการกำหนด visibility ใน plantUML
 
-### 2.4.4 การแสดงคำอธิบาย (notes)
+![](./Pictures/Pict-23-Class-Book-with-visibility.png)
+
 
