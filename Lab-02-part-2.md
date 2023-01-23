@@ -42,9 +42,6 @@
 
 โดยเมื่อแก้ไข code แล้วเราสามารถสั่งให้หน้าเวบทำการ render ส่วนของ graphic ใหม่โดยการกดปุ่ม Submit [3]
 
-
-# To be continued ...    
-
 ### 2.4.2 การเพิ่ม properties และ methods 
 
 
@@ -97,4 +94,17 @@ class ClassName
 
 ![](./Pictures/Pict-23-Class-Book-with-visibility.png)
 
+### 2.4.4 การแสดงความสัมพันธ์ระหว่างคลาส 
 
+ใน class diagram เราต้องแสดงความสัมพันธ์ระหว่างคลาส เพื่อบอกเรื่องราวที่ได้วิเคราะห์จาก problem domain 
+
+ใน plantUML ก็มีเทคนิคในการเขียน code เพื่อให้โปรแกรมได้ render ออกมาเป็น graphics ตามมาตรฐานของ UML เช่นกัน พิจารณาจากรูปต่อไปนี้
+
+![](./Pictures/Pict-24-Relations-between-classes.png)
+
+เราสามารถนำเทคนิคการเขียน code มาสร้างความสัมพันธ์ระหว่างคลาสได้ในกลายรูปแบบ
+
+![](./Pictures/Pict-25-Relations-between-classes-examples.png)
+
+
+## [2.5 การทดลอง class diagram บน plantUML](./Lab-02-part-3.md) 
