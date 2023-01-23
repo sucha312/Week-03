@@ -1,6 +1,6 @@
 # Lab-02 การใช้งาน Plantuml 
 
-## 2.4 การใช้งาน Plantuml (Online)
+## 2.4 แนะนำการใช้งาน Plantuml (Online)
 
 ### 2.4.1 ส่วน user interface ของเวบและการใช้งาน
 การใช้งาน Plantuml ให้เข้าไปที่หน้า homepage  ของ PlantUML ตามลิงค์นี้  http://plantuml.com/en 
@@ -43,23 +43,30 @@
 โดยเมื่อแก้ไข code แล้วเราสามารถสั่งให้หน้าเวบทำการ render ส่วนของ graphic ใหม่โดยการกดปุ่ม Submit [3]
 
 
-
 # To be continued ...    
-### 2.4.2 การแสดงความสัมพันธ์ระหว่างคลาส
+
+### 2.4.2 การเพิ่ม properties และ methods 
+
+
+![](./Pictures/Pict-18-Class-with-Attributes_and_Methods.png)
+
+
+1. การเขียนคลาสอย่างง่าย
+
+![](./Pictures/Pict-19-Class-Simple.png)
+
+2. การเพิ่ม Attributes และ Methods ให้คลาส
+
+![](./Pictures/Pict-20-Class-more.png)
+
+3. การเพิ่ม Data type ให้ Attributes และ Methods 
+
+![](./Pictures/Pict-21-Class-add-data-type.png)
+
+### 2.4.3 การกำหนด  visibility ให้กับส่วนประกอบต่างๆ ของคลาส 
 
 
 
-### 2.4.3 การเพิ่ม properties และ methods 
 
-
-
-
-### 2.4.4 การกำหนด  visibility ให้กับส่วนประกอบต่างๆ ของคลาส 
-
-
-
-
-
-### 2.4.5 การแสดงคำอธิบาย (notes)
-
+### 2.4.4 การแสดงคำอธิบาย (notes)
 
