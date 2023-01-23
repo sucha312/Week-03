@@ -2,7 +2,7 @@
 
 ## 2.5 การทดลอง class diagram บน plantUML 
 
-1. ให้เขียน code เพื่อให้เกิดภาพ class diagram ดังรูปต่อไปนี้
+1. ให้คัดลอก code ไปเขียนใน plantUML เพื่อให้เกิดภาพ class diagram ดังรูปต่อไปนี้
 
 ![](Pictures/Pict-26-lab-pict-01.png)
 
