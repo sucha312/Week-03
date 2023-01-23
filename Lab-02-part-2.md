@@ -1,8 +1,8 @@
 # Lab-02 การใช้งาน Plantuml 
 
-## 2.4 แนะนำการใช้งาน Plantuml (Online)
+## 2.5 แนะนำการใช้งาน Plantuml (Online)
 
-### 2.4.1 ส่วน user interface ของเวบและการใช้งาน
+### 2.5.1 ส่วน user interface ของเวบและการใช้งาน
 การใช้งาน Plantuml ให้เข้าไปที่หน้า homepage  ของ PlantUML ตามลิงค์นี้  http://plantuml.com/en 
 
 
@@ -42,7 +42,7 @@
 
 โดยเมื่อแก้ไข code แล้วเราสามารถสั่งให้หน้าเวบทำการ render ส่วนของ graphic ใหม่โดยการกดปุ่ม Submit [3]
 
-### 2.4.2 การเพิ่ม properties และ methods 
+### 2.5.2 การเพิ่ม properties และ methods 
 
 
 ![](./Pictures/Pict-18-Class-with-Attributes_and_Methods.png)
@@ -83,7 +83,7 @@ class ClassName
 
 ![](./Pictures/Pict-21-Class-add-data-type.png)
 
-### 2.4.3 การกำหนด  visibility ให้กับส่วนประกอบต่างๆ ของคลาส 
+### 2.5.3 การกำหนด  visibility ให้กับส่วนประกอบต่างๆ ของคลาส 
 
 คลาสคือการทำ encapsulation ซึ่งต้องมีความสามารถในการตวบคุมการเข้าถึง attributes หรือ methods ในคลาส เราสามารถใช้เครื่องหมายต่างๆ เพื่อควบคุมการเข้าถึง attributes และ methods ซึ่งจะให้ผลการ render ที่แตกต่างกัน พิจารณาจากรูปด้านล่าง
 
@@ -94,7 +94,7 @@ class ClassName
 
 ![](./Pictures/Pict-23-Class-Book-with-visibility.png)
 
-### 2.4.4 การแสดงความสัมพันธ์ระหว่างคลาส 
+### 2.5.4 การแสดงความสัมพันธ์ระหว่างคลาส 
 
 ใน class diagram เราต้องแสดงความสัมพันธ์ระหว่างคลาส เพื่อบอกเรื่องราวที่ได้วิเคราะห์จาก problem domain 
 
@@ -107,4 +107,4 @@ class ClassName
 ![](./Pictures/Pict-25-Relations-between-classes-examples.png)
 
 
-## [2.5 การทดลอง class diagram บน plantUML](./Lab-02-part-3.md) 
+## [2.6 การทดลอง class diagram บน plantUML](./Lab-02-part-3.md) 
